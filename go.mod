@@ -6,7 +6,6 @@ require (
 	github.com/alibabacloud-go/cs-20151215/v2 v2.4.5
 	github.com/alibabacloud-go/darabonba-openapi v0.2.1
 	github.com/alibabacloud-go/tea v1.2.2
-	github.com/alibabacloud-go/tea-utils v1.4.3 // indirect
 	github.com/bndr/gotabulate v1.1.3-0.20170315142410-bc555436bfd5
 	github.com/cli/safeexec v1.0.1
 	github.com/daviddengcn/go-colortext v1.0.0
@@ -23,7 +22,6 @@ require (
 	k8s.io/api v0.31.0
 	k8s.io/apimachinery v0.31.0
 	k8s.io/client-go v0.31.0
-	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8 // indirect
 )
 
 require (
@@ -47,6 +45,7 @@ require (
 	github.com/alibabacloud-go/debug v1.0.0 // indirect
 	github.com/alibabacloud-go/endpoint-util v1.1.0 // indirect
 	github.com/alibabacloud-go/openapi-util v0.0.11 // indirect
+	github.com/alibabacloud-go/tea-utils v1.4.3 // indirect
 	github.com/alibabacloud-go/tea-xml v1.1.2 // indirect
 	github.com/aliyun/credentials-go v1.1.2 // indirect
 	github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e // indirect
@@ -116,9 +115,12 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340 // indirect
+	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
 replace github.com/manifoldco/promptui => github.com/terryding77/promptui v0.3.3
+
+replace vbom.ml/util => github.com/fvbommel/util v0.0.0-20160121211510-db5cfe13f5cc
